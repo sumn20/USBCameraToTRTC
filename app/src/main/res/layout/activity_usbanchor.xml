@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rtc_entrance_main"
+    android:orientation="vertical"
+    android:background="@color/live_main_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/common_ic_back" />
+
+        <TextView
+            android:id="@+id/tv_room_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="1111"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <com.serenegiant.usb.widget.UVCCameraTextureView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
